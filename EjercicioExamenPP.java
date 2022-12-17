@@ -62,5 +62,5 @@ public class EjercicioExamenPP {
         }
         return bb;
     }
-    //hasta aquí es mierda !!!!!!
+    //hasta aquí es mierda carajo !!!!!!
 }
