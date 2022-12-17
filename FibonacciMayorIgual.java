@@ -7,12 +7,12 @@ public class FibonacciMayorIgual{
         N = leerEnteroPositivo();
         R = fibonacci(N);
         System.out.print("El número es !!!! ");
-        System.out.print(R);
+        System.out.print(" "+R);
     }
 
     public static int leerEnteroPositivo(){
         int bb = 0;
-        int numero;
+        int numero = 0;
         Scanner ent = new Scanner(System.in);
         while(bb == 0){
             System.out.print("Digitar un número mayor a cero !!!! ");
@@ -21,13 +21,13 @@ public class FibonacciMayorIgual{
                 bb = 1;
             }
         }
-        return bb;
+        return numero;
     }
 
     public static int fibonacci(int numero){
         int penultimo = 0;
         int ultimo = 1;
-        int nuevo = penultimo + ultimo;
+        int nuevo = 0;
         int bb = 0;
         while(bb == 0){
             nuevo = penultimo + ultimo;
